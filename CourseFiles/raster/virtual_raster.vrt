@@ -1,0 +1,40 @@
+<VRTDataset rasterXSize="1015" rasterYSize="1015">
+  <SRS dataAxisToSRSAxisMapping="1,2">PROJCS["ETRS89 / UTM zone 33N",GEOGCS["ETRS89",DATUM["IRENET95",SPHEROID["GRS 1980",6378137,298.257222101004,AUTHORITY["EPSG","7019"]],AUTHORITY["EPSG","6173"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",15],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",500000],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH]]</SRS>
+  <GeoTransform>  2.4979500000000000e+05,  1.0000000000000000e+01,  0.0000000000000000e+00,  6.7002050000000000e+06,  0.0000000000000000e+00, -1.0000000000000000e+01</GeoTransform>
+  <VRTRasterBand dataType="Float32" band="1">
+    <NoDataValue>-32767</NoDataValue>
+    <ColorInterp>Gray</ColorInterp>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">6602_1_10m_z33_0_0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="512" RasterYSize="512" DataType="Float32" BlockXSize="512" BlockYSize="4" />
+      <SrcRect xOff="0" yOff="0" xSize="512" ySize="512" />
+      <DstRect xOff="0" yOff="0" xSize="512" ySize="512" />
+      <NODATA>-32767</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">6602_1_10m_z33_0_1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="512" RasterYSize="512" DataType="Float32" BlockXSize="512" BlockYSize="4" />
+      <SrcRect xOff="0" yOff="0" xSize="512" ySize="512" />
+      <DstRect xOff="0" yOff="503" xSize="512" ySize="512" />
+      <NODATA>-32767</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">6602_1_10m_z33_1_0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="512" RasterYSize="512" DataType="Float32" BlockXSize="512" BlockYSize="4" />
+      <SrcRect xOff="0" yOff="0" xSize="512" ySize="512" />
+      <DstRect xOff="503" yOff="0" xSize="512" ySize="512" />
+      <NODATA>-32767</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">6602_1_10m_z33_1_1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="512" RasterYSize="512" DataType="Float32" BlockXSize="512" BlockYSize="4" />
+      <SrcRect xOff="0" yOff="0" xSize="512" ySize="512" />
+      <DstRect xOff="503" yOff="503" xSize="512" ySize="512" />
+      <NODATA>-32767</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+</VRTDataset>
